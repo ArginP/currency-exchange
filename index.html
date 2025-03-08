@@ -8,5 +8,28 @@
 </head>
 <body>
 
+<main>
+
+    <div class="currency-exchange-wrapper">
+        <form>
+            <input id="currency" placeholder="Валюта" type="text">
+            <input type="submit" value="Перевести">
+        </form>
+    </div>
+
+    <div class="exchange-text-wrapper">
+        <p>Введите код валюты.</p>
+    </div>
+
+    <div class="get-exchange-rate-wrapper">
+        <button onclick="getExchangeRate()">Получить курсы валют с сервера.</button>
+        <span>Обновляется раз в сутки.</span>
+    </div>
+</main>
+
+<footer>
+    <a href="https://www.exchangerate-api.com">Rates By Exchange Rate API</a>
+</footer>
+
 </body>
 </html>
